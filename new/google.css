@@ -1,0 +1,71 @@
+body{font-family: 'Noto Sans Display', sans-serif;}
+.nav{border: ;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  text-decoration:underline;
+}
+
+.active {
+  background-color:;
+}
+.menu{border:;}
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.goo{border: ;
+margin-left: 35%;
+margin-top: 10%;}
+.go{border:;
+font-size: 5em;}
+.bar{border: ;
+margin-top: 50px;
+margin-left: 25%;}
+.bg{color: #5462f7;}
+.bo{color: #f90016;}
+.boo{color: #fec600;}
+.bog{color:#5462f7;}
+.bl{color:#00b855;}
+.be{color:#f90016;
+transform:rotate(45deg);}
+
+input[type=text] {width: 50%;
+ box-sizing: border-box;
+		border: 2px solid #ccc;
+		border-radius: 25px;
+		font-size: 16px;
+		background-color: white;
+		background:;
+		background-position: 10px 10px; 
+		background-repeat: no-repeat;
+		padding: 12px 20px 12px 40px;}
+		input[type=text]:hover {width:;
+			transition: height 10s;
+			box-shadow: 2px 2px 2px 2px #f0f0f0;
+			height: 20%;}
